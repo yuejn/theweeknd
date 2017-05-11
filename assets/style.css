@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background:  url('images/source.gif') no-repeat center center fixed;
+  background-size: cover;
+  font: 2.5em 'Oswald', sans-serif;
+  color: #fff;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 5em;
+}
+
+#lyrics {
+  margin: 2em 0;
+}
+
+button {
+  margin: 0 auto;
+  display: block;
+  padding: 1em 3em;
+  font: inherit;
+}
